@@ -1,0 +1,1 @@
+function flag = correction(val,ref,tol)    if abs(val-ref)/abs(ref+eps) < tol    flag = 0;  else    flag = 1;  end  end
